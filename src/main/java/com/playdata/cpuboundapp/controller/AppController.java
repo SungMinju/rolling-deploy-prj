@@ -19,7 +19,7 @@ public class AppController {
         return input;
     }
 
-    @RequestMapping("/hello")
+    //@RequestMapping("/hello")
     public String hello() {
         return "<h1 style ='color:green;'>swu hello~@</h1>";
     }
